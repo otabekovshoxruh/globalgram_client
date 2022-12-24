@@ -1,0 +1,36 @@
+
+
+
+
+
+.profileName {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoProfile p {
+    margin: 0 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.img-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-item img {
+    height: 28  0px;
+    object-fit: cover;
+}
+
+.notPhoto {
+    width: 300px;
+    margin-left: 350px;
+}
