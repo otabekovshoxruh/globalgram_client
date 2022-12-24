@@ -11,7 +11,7 @@ export default function CreatePost() {
 
   useEffect(() => {
     if (url) {
-      fetch("globalgramserver-production.up.railway.app/createPost", {
+      fetch("https://globalgramserver-production.up.railway.app/createPost", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
